@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qFtrwaCSAnNHG1n21vUa7LxdVjptI7YdUsY6Q5m5T69diPTTzk8O/X4x5agqYkGWd9ZbSMZJSOQqJtIdqQemsg==",
+  "success": true,
+  "projectFilePath": "/home/cassiogamarra/Documentos/desenvolvimento/github/avaliacao-sprint-6/Auditoria/Auditoria/Auditoria.csproj",
+  "expectedPackageFiles": [
+    "/home/cassiogamarra/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/cassiogamarra/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/cassiogamarra/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/cassiogamarra/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/cassiogamarra/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/cassiogamarra/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
