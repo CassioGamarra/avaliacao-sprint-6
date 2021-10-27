@@ -28,14 +28,13 @@ CREATE TABLE Enderecos (
   Complemento VARCHAR(30),
   Logradouro VARCHAR(200) NOT NULL,
   Bairro VARCHAR(200) NOT NULL,
-  IndPrincipal CHAR(1) NOT NULL,
+  IndPrincipal BIT NOT NULL,
   CONSTRAINT PK_Enderecos PRIMARY KEY (Id),
   CONSTRAINT FK_Enderecos_Clientes_ClienteId FOREIGN KEY (ClienteId) REFERENCES Clientes(Id),
   CONSTRAINT FK_Enderecos_Cidades_CidadeId FOREIGN KEY (CidadeId) REFERENCES Cidades(Id)
 );
 
 --CRIAÇÃO DA BASE DE PRODUTOS
-
 CREATE DATABASE SIS_PRODUTOS;
 
 USE SIS_PRODUTOS;
@@ -44,6 +43,7 @@ CREATE TABLE Usuarios(
     Id UNIQUEIDENTIFIER NOT NULL,
     Email VARCHAR(200) NOT NULL,
     Senha VARCHAR(255) NOT NULL,
+    Cadastrado BIT NOT NULL,
     CONSTRAINT PK_Usuarios PRIMARY KEY (Id)
 );
 

@@ -5,7 +5,19 @@
     <projectFile profileName="Auditoria">Auditoria/Auditoria.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb0b525-fee2-4e24-aa89-6f89168ac6e4" name="Changes" comment="" />
+    <list default="true" id="3cb0b525-fee2-4e24-aa89-6f89168ac6e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Auditoria/obj/Debug/net5.0/Auditoria.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Auditoria/obj/Debug/net5.0/Auditoria.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/ClienteConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/ClienteConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/EnderecoConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/EnderecoConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/ClienteDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/ClienteDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/EnderecoDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/EnderecoDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Cliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Endereco.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Endereco.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/EnderecoValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/EnderecoValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/ViaCepValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/ViaCepValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/obj/Debug/net5.0/SisClientes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/obj/Debug/net5.0/SisClientes.csproj.AssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635291785008</updated>
       <workItem from="1635291791339" duration="26000" />
+      <workItem from="1635310855998" duration="13000" />
     </task>
     <servers />
   </component>
@@ -75,7 +88,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

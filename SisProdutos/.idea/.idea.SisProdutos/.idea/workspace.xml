@@ -5,7 +5,60 @@
     <projectFile profileName="SisProdutos">SisProdutos/SisProdutos.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962153a0-c636-4c13-80c7-bb016878f27f" name="Changes" comment="" />
+    <list default="true" id="962153a0-c636-4c13-80c7-bb016878f27f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Configuration/CategoriaConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Configuration/CidadeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Configuration/ProdutoCidadeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Configuration/ProdutoConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Configuration/UsuarioConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/DTOs/CategoriaDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/DTOs/CidadeDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/DTOs/ProdutoCidadeDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/DTOs/ProdutoDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/DTOs/UsuarioDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Data/DatabaseContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Models/Categoria.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Models/Cidade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Models/Produto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Models/ProdutoCidade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Models/Usuario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Profiles/CategoriaProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Profiles/CidadeProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Profiles/ProdutoCidadeProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Profiles/ProdutoProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Profiles/UsuarioProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Validators/CategoriaValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Validators/CidadeValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Validators/ProdutoCidadeValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Validators/ProdutoValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SisProdutos/Validators/UsuarioValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auditoria/.idea/.idea.Auditoria/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Auditoria/.idea/.idea.Auditoria/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auditoria/Auditoria/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Auditoria/Auditoria/obj/Debug/net5.0/Auditoria.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Auditoria/Auditoria/obj/Debug/net5.0/Auditoria.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/ClienteConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/ClienteConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/EnderecoConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Configuration/EnderecoConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/ClienteDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/ClienteDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/EnderecoDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/DTOs/EnderecoDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Data/DatabaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Data/DatabaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Cliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Endereco.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Models/Endereco.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/EnderecoValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/EnderecoValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/ViaCepValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/Validators/ViaCepValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SisClientes/SisClientes/obj/Debug/net5.0/SisClientes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../SisClientes/SisClientes/obj/Debug/net5.0/SisClientes.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SisProdutos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SisProdutos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/SisProdutos.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/SisProdutos.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/Debug/net5.0/SisProdutos.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/Debug/net5.0/SisProdutos.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/Debug/net5.0/SisProdutos.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/Debug/net5.0/SisProdutos.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/SisProdutos.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/SisProdutos.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SisProdutos/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SisProdutos/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +68,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2046nYe8BT3Aler1pXRrU7lytNR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635291689861</updated>
       <workItem from="1635291701189" duration="18000" />
+      <workItem from="1635311175274" duration="2390000" />
     </task>
     <servers />
   </component>
@@ -75,8 +131,19 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
